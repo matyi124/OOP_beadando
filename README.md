@@ -1,1 +1,2 @@
-# OOP_beadando
+Elevator Pitch:
+https://gdfhu-my.sharepoint.com/:v:/g/personal/f4yr35_neptun_gde_hu/IQBiAKeAMrVFSo-bRAeuzMweAb0dcCnhOA0ahA-0Z4-qBws?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QT1Ffg
