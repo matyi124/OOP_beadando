@@ -16,7 +16,11 @@ while True:
     print("4. Foglalások listázása")
     print("0. kilépés")
 
-    choice = int(input("Válassz egy opciót: "))
+    try:
+        choice = int(input("Válassz egy opciót: "))
+    except ValueError:
+        print("Számot adj meg!")
+        continue
     print( )
     if choice < 0 or choice > 4:
         print("Érvénytelen választás, próbáld újra.")
@@ -26,14 +30,14 @@ while True:
         airline.list_routes()
 
     elif choice == 2:
-        route_number = input("Add meg a járatszámot: ")
-        passenger_name = input("Add meg az utas nevét: ")
+        route_number = input("Add meg a járatszámot: ").strip()
+        passenger_name = input("Add meg az utas nevét: ").strip()
         airline.book_ticket(route_number, passenger_name)
 
     elif choice == 3:
-        route_number = input("Add meg a járatszámot: ")
-        passenger_name = input("Add meg az utas nevét: ")
-        airline.cancel_booking(passenger_name, route_number)
+        route_number = input("Add meg a járatszámot: ").strip()
+        passenger_name = input("Add meg az utas nevét: ").strip().lower()
+        airline.cancel_booking(route_number, passenger_name)
 
     elif choice == 4:
         airline.list_bookings()
